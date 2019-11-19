@@ -1,0 +1,4 @@
+#  In production.rb
+# if ENV.fetch("HEROKU_APP_NAME", "").include?("staging-pr-")
+#   ENV["APPLICATION_HOST"] = ENV["HEROKU_APP_NAME"] + ".herokuapp.com"
+# end
